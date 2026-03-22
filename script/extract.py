@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv('../data/raw_data.csv')
+df = pd.read_csv('C:/Users/erish/Downloads/vehicle-etl-pipeline/Data/project-folderdataraw_data.csv')
 
 # Preview data
 print(df.head())
