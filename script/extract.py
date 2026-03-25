@@ -1,6 +1,10 @@
 import pandas as pd
 
-# Extract
-df = pd.read_csv(r"C:\Users\erish\Documents\project-folder\data\raw_data.csv")
+# Load dataset
+df = pd.read_csv(r'project-folderdataraw_data.csv')
 
+# Preview data
 print(df.head())
+
+# Check structure
+print(df.info())
