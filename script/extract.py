@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv(r'Vehicle performance')
+df = pd.read_csv(r"..\Data\Vehicle performance.csv")
 
 # Preview data
 print(df.head())
